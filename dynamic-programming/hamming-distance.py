@@ -1,5 +1,8 @@
 class Solution:
 
+    '''
+    https://en.wikipedia.org/wiki/Hamming_distance
+    '''
     def decimal_to_binary(self, num, quotient_array):
         
         # raise error
