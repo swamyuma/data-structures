@@ -5,6 +5,12 @@ class Solution:
     '''
     def decimal_to_binary(self, num, remainder_array):
         
+        '''
+        Method: successive divison method to convert decimal to binary
+        Example: 5//2= 2 (remainder 1)
+                 2//2= 1 (remainder 0)
+                 1//2= 0.5 (remainder 1)
+        '''
         # raise error
         if num < 0:
             raise ValueError("Input should be an unsigned integer!")
