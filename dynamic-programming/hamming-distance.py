@@ -7,9 +7,9 @@ class Solution:
         
         '''
         Method: successive divison method to convert decimal to binary
-        Example: 5//2= 2 (remainder 1)  /|\
+        Example: 5//2= 2 (remainder 1)  /|\ (Least significant bit)
                  2//2= 1 (remainder 0)   |
-                 1//2= 0.5 (remainder 1) |
+                 1//2= 0.5 (remainder 1) |  (Most significant bit) 
         Answer: decimal_to_binery(5) = 101
         '''
         # raise error
